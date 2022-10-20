@@ -1,0 +1,88 @@
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+   
+    
+
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    font-weight: 800;
+    
+}
+span {
+    color: #0caf68;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+img {
+    position: relative;
+    top: -100px;
+    left: -80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    width: 280px;
+    height: 35px;
+    
+    padding: 5px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 40px;
+    font-family: "Poppins";
+    margin: 5px 0 5px 0;
+
+    
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input:active, input:focus {
+    border: 0;
+    color: #0d6941;
+}
+
+input:defined {
+    color: #1a915d;
+}
+
+input.botao-enviar {
+    color: white;
+}
+
+
+.botao-enviar {
+    background-color: #A468ED;
+    width: 320px;
+    font-size: 1.3rem;
+    height: 40px;
+   
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.botao-enviar:hover {
+    cursor: pointer;
+    background-color: #875fbb;
+    transition: .2s all;
+} 
+

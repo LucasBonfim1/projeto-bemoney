@@ -1,0 +1,14 @@
+* {
+   padding: 0;
+   margin: 0;
+  
+}
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    max-width: 1200px;
+    height: 100vh;
+
+}
