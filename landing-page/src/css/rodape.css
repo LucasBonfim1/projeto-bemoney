@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.2rem; 
+    padding-bottom: 0.2rem;
+    color: #fff;
+    background-color: #4e4e4e;
+    width: 1262px;
+    left: 1px;
+    position: absolute;
+    border-top: 10px solid gray;
+
+}
+footer>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #fff;
+    margin-top: 25px;
+}
